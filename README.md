@@ -4,6 +4,7 @@
 📌 Project Overview
 
 ➤Email spam filtering is an important task in modern communication systems to protect users from unwanted, fraudulent, and malicious emails.In this project, different machine learning algorithms are trained and tested on email datasets to automatically detect spam messages.
+
 ➤The goal of this project is to compare multiple models and identify the most accurate model for spam detection.
 
 🚀 Features
