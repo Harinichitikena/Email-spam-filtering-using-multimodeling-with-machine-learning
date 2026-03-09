@@ -1,77 +1,66 @@
 # Email-spam-filtering-using-multimodeling-with-machine-learning
-This project focuses on building a machine learning-based email spam detection system that classifies emails as Spam or Not Spam (Ham). The system uses multiple machine learning models (multimodeling) to improve prediction accuracy and evaluate the performance of different algorithms.
+➤This project focuses on building a machine learning-based email spam detection system that classifies emails as Spam or Not Spam (Ham). The system uses multiple machine learning models (multimodeling) to improve prediction accuracy and evaluate the performance of different algorithms.
 
 📌 Project Overview
 
-Email spam filtering is an important task in modern communication systems to protect users from unwanted, fraudulent, and malicious emails.
-In this project, different machine learning algorithms are trained and tested on email datasets to automatically detect spam messages.
-
-The goal of this project is to compare multiple models and identify the most accurate model for spam detection.
+➤Email spam filtering is an important task in modern communication systems to protect users from unwanted, fraudulent, and malicious emails.In this project, different machine learning algorithms are trained and tested on email datasets to automatically detect spam messages.
+➤The goal of this project is to compare multiple models and identify the most accurate model for spam detection.
 
 🚀 Features
 
-Automatic spam email detection
+➤Automatic spam email detection
 
-Text preprocessing and cleaning
+➤Text preprocessing and cleaning
 
-Feature extraction from email content
+➤Feature extraction from email content
 
-Training and testing multiple machine learning models
+➤Training and testing multiple machine learning models
 
-Model performance evaluation using accuracy and metrics
+➤Model performance evaluation using accuracy and metrics
 
-🧠 Machine Learning Models Used
+## 🧠 Machine Learning Models Used
 
-The following models are used for spam classification:
+➤ **Naive Bayes** – Commonly used for text classification and spam detection.  
+➤ **Logistic Regression** – A statistical model used for binary classification problems.  
+➤ **Support Vector Machine (SVM)** – Effective for high-dimensional text data.  
+➤ **Random Forest** – An ensemble learning method that improves prediction accuracy.
 
-Naive Bayes
+➤ The performance of these models is compared to identify the most effective algorithm for email spam detection.
 
-Logistic Regression
+## 📂 Technologies Used
 
-Support Vector Machine (SVM)
+➤ Python  
+➤ Machine Learning  
+➤ Scikit-learn  
+➤ Pandas  
+➤ NumPy  
+➤ Jupyter Notebook
 
-Random Forest
+## ⚙️ Project Workflow
 
-These models are compared to determine which algorithm performs best for spam detection.
+➤ **Data Collection** – Gather email datasets containing spam and legitimate messages.  
 
-📂 Technologies Used
+➤ **Data Preprocessing** – Prepare and clean the dataset for analysis.  
 
-Python
+➤ **Text Cleaning and Tokenization** – Remove unwanted characters, stopwords, and convert text into tokens.  
 
-Machine Learning
+➤ **Feature Extraction (TF-IDF / Bag of Words)** – Convert textual data into numerical features for machine learning models.  
 
-Scikit-learn
+➤ **Model Training** – Train multiple machine learning algorithms on the processed dataset.  
 
-Pandas
+➤ **Model Evaluation and Accuracy Comparison** – Evaluate model performance and compare accuracy to identify the best model.
+## 📊 Expected Outcome
 
-NumPy
+➤ The system successfully classifies emails into two categories:
 
-Jupyter Notebook
+➤ **Spam** – Unwanted, promotional, or fraudulent emails.  
 
-⚙️ Project Workflow
+➤ **Ham** – Legitimate and safe emails received by users.  
 
-Data Collection
+➤ The trained machine learning models analyze the email content and predict whether the message is spam or not.
 
-Data Preprocessing
-
-Text Cleaning and Tokenization
-
-Feature Extraction (TF-IDF / Bag of Words)
-
-Model Training using multiple algorithms
-
-Model Evaluation and Accuracy Comparison
-
-📊 Expected Outcome
-
-The system successfully classifies emails into:
-
-Spam – Unwanted or promotional emails
-
-Ham – Legitimate emails
-
-The model with the highest accuracy and performance metrics is selected as the best spam detection model.
+➤ The model with the **highest accuracy and performance metrics** is selected as the best spam detection model.
 
 🎯 Purpose of the Project
 
-The purpose of this project is to demonstrate the application of machine learning techniques in natural language processing (NLP) for solving real-world problems like email spam detection
+➤The purpose of this project is to demonstrate the application of machine learning techniques in natural language processing (NLP) for solving real-world problems like email spam detection.
